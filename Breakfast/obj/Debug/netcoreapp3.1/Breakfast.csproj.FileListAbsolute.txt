@@ -1,0 +1,13 @@
+C:\Users\DCV\C#\Breakfast\Breakfast\bin\Debug\netcoreapp3.1\Breakfast.exe
+C:\Users\DCV\C#\Breakfast\Breakfast\bin\Debug\netcoreapp3.1\Breakfast.deps.json
+C:\Users\DCV\C#\Breakfast\Breakfast\bin\Debug\netcoreapp3.1\Breakfast.runtimeconfig.json
+C:\Users\DCV\C#\Breakfast\Breakfast\bin\Debug\netcoreapp3.1\Breakfast.runtimeconfig.dev.json
+C:\Users\DCV\C#\Breakfast\Breakfast\bin\Debug\netcoreapp3.1\Breakfast.dll
+C:\Users\DCV\C#\Breakfast\Breakfast\bin\Debug\netcoreapp3.1\Breakfast.pdb
+C:\Users\DCV\C#\Breakfast\Breakfast\obj\Debug\netcoreapp3.1\Breakfast.csprojAssemblyReference.cache
+C:\Users\DCV\C#\Breakfast\Breakfast\obj\Debug\netcoreapp3.1\Breakfast.AssemblyInfoInputs.cache
+C:\Users\DCV\C#\Breakfast\Breakfast\obj\Debug\netcoreapp3.1\Breakfast.AssemblyInfo.cs
+C:\Users\DCV\C#\Breakfast\Breakfast\obj\Debug\netcoreapp3.1\Breakfast.csproj.CoreCompileInputs.cache
+C:\Users\DCV\C#\Breakfast\Breakfast\obj\Debug\netcoreapp3.1\Breakfast.dll
+C:\Users\DCV\C#\Breakfast\Breakfast\obj\Debug\netcoreapp3.1\Breakfast.pdb
+C:\Users\DCV\C#\Breakfast\Breakfast\obj\Debug\netcoreapp3.1\Breakfast.genruntimeconfig.cache
