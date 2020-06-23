@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Un+VhxURUWaXzFquEzVZIZ8q4GGOEX0J0cYeYaVNOrAXXorWWc4pEZVJv8FFMMXhvyUHIGNzhTm3a5W1fD5cDQ==",
+  "dgSpecHash": "VA2H0AgF9J51eS5/cyElWDGfoVz/gG9Mj42qV+LRyr1BO0wLFigzHnoRinARjIj6oMP+s+NT096Or+3FZ5n61Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\DCV\\C#\\Breakfast\\BreakfastTests\\BreakfastTests.csproj",
   "expectedPackageFiles": [
@@ -53,8 +53,7 @@
     "C:\\Users\\DCV\\.nuget\\packages\\xunit.core\\2.4.0\\xunit.core.2.4.0.nupkg.sha512",
     "C:\\Users\\DCV\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
     "C:\\Users\\DCV\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
-    "C:\\Users\\DCV\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512",
-    "C:\\Users\\DCV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\DCV\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Breakfast
 {
@@ -12,24 +13,30 @@ namespace Breakfast
             Coffee coffee = new Coffee();
             return coffee;  
         }
-        public static Egg[] FryEggs(int amount)
+        public static async Task<Egg[]> FryEggsAsync(int amount)
         {
-            Egg[] eggs = new Egg[amount];
-            for(int i = 0; i < amount; i++)
+            
+            Egg[] eggs = new Egg[amount+1];
+            for(int i = 1; i <= amount; i++)
             {
+                await Task.Delay(3000);
                 Egg egg = new Egg();
                 eggs[i] = egg;
+                Console.WriteLine("Egg " + i + " is fried.");
             }          
             return eggs;
 
         }
-        public static Bacon[] FryBacon(int amount)
+        public static async Task<Bacon[]> FryBaconAsync(int amount)
         {
+            
             Bacon[] lotsOfBacon = new Bacon[amount];
-            for(int i = 0; i < amount; i++)
+            for(int i = 1; i <= amount; i++)
             {
+                await Task.Delay(5000);
                 Bacon bacon = new Bacon();
                 lotsOfBacon[i] = bacon;
+                Console.WriteLine("Bacon " + i + " is fried.");
             }
             return lotsOfBacon;
         }
@@ -47,7 +54,7 @@ namespace Breakfast
             baconArray = new Bacon[newAmount];
             if (amount <= bacon.Length && amount > 0)
             {
-                for (int i = 0; i < baconArray.Length; i++)
+                for (int i = 1; i <= baconArray.Length; i++)
                 {
                     baconArray[i] = new Bacon();
                 }
@@ -55,12 +62,15 @@ namespace Breakfast
             //return baconArray;
             
         }
-        public static ToastBread[] ToastBread(int amount)
+        public static async Task<ToastBread[]> ToastBreadAsync(int amount)
         {
-            ToastBread[] toasts = new ToastBread[amount];
-            for(int i = 0; i < amount; i++)
+            
+            ToastBread[] toasts = new ToastBread[amount+1];
+            for(int i = 1; i <= amount; i++)
             {
                 toasts[i] = new ToastBread();
+                await Task.Delay(5000);
+                Console.WriteLine("Toast " + i + " is toasted.");
             }
             return toasts;
         }
@@ -72,6 +82,12 @@ namespace Breakfast
         public static void ApplyJam(ToastBread toast)
         {
             toast.JamApplied = true;
+        }
+        public static Juice PourJuice(string type)
+        {
+            Juice juice = new Juice(type);
+            return juice;
+
         }
     }
 }

@@ -30,34 +30,34 @@ namespace BreakfastTests
         }
 
         [Fact]
-        public void TestFryingEggsLength()
+        public async void TestFryingEggsLength()
         {
-            var eggs = Breakfast.Breakfast.FryEggs(2);
+            var eggs = await Breakfast.Breakfast.FryEggsAsync(2);
             Assert.Equal(2, eggs.Length);
             Assert.Equal("2 eggs", eggs.Print());
         }
 
         [Fact]
-        public void TestFryingBaconLength()
+        public async void TestFryingBaconLength()
         {
             
-            Bacon[] bacon = Breakfast.Breakfast.FryBacon(4);
+            Bacon[] bacon = await Breakfast.Breakfast.FryBaconAsync(4);
             Assert.Equal(4, bacon.Length);
             Breakfast.Breakfast.EatBacon(ref bacon, 2);
             Assert.Equal(2, bacon.Length);
         }
 
         [Fact]
-        public void TestToastingBreadLength()
+        public async void TestToastingBreadLength()
         {
-            var toasts = Breakfast.Breakfast.ToastBread(2);
+            var toasts = await Breakfast.Breakfast.ToastBreadAsync(2);
             Assert.Equal(2, toasts.Length);
         }
 
         [Fact]
-        public void TestApplyingToToast()
+        public async void TestApplyingToToast()
         {
-            var toasts = Breakfast.Breakfast.ToastBread(2);
+            var toasts = await Breakfast.Breakfast.ToastBreadAsync(2);
 
             Breakfast.Breakfast.ApplyButter(toasts[0]);
             Breakfast.Breakfast.ApplyJam(toasts[1]);
